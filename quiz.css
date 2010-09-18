@@ -1,0 +1,402 @@
+/* bodyタグ全体 */
+body
+{
+	font-family:Verdana;
+	background-image:url();
+	background-attachment: fixed;
+	background-color: #1E90FF;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-size: 11pt;
+}
+
+/* 全体の枠 */
+#all
+{
+	font-family:Verdana;
+	margin:0px auto 0px auto;
+	width:880px;
+	
+	background-color: #FFFFFF;
+	color:#585858;
+}
+/* title表示枠 */
+#title
+{
+	font-family:Verdana;
+	margin:0px auto 0px auto;
+	width:430px;
+	padding:3px;
+	background-color: #3399FF;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+	border: solid 1px;
+	border-color: #3399FF;
+}
+
+/* Quiz Start Form */
+#quiz_start
+{
+	font-family:Verdana;
+	margin:0px auto 0px auto;
+	width:400px;
+	background-color: #FFFFFF;
+	color:#000000;
+	font-size:14px;
+	font-weight:bold;
+	border: solid 1px;
+	border-color: #3399FF;
+}
+
+/* Quiz answer Status */
+#answer_status
+{
+	font-family:Verdana;
+	margin:0px auto 0px auto;
+	width:400px;
+	background-color: #FFFFFF;
+	border: solid 1px;
+	border-color: #3399FF;
+	border-collapse: collapse;
+}
+
+#answer_status_main_td
+{
+	width:130px;
+	background-color: #3399FF;
+	color:#000000;
+	font-size:14px;
+	color: #FFFFFF;
+	font-weight:bold;
+	text-align: center;
+	border: solid 1px;
+	border-color: #3399FF;
+	padding: 2px;
+}
+
+#answer_status_rank1_td
+{
+	width:400px;
+	background-color: #FFFFFF;
+	color:#000000;
+	font-size:16px;
+	text-align: left;
+	border: solid 1px;
+	border-color: #3399FF;
+	font-weight:bold;
+	padding: 10px;
+}
+
+#answer_status_rank2_td
+{
+	width:400px;
+	background-color: #FFFFFF;
+	color:#000000;
+	font-size:15px;
+	text-align: left;
+	border: solid 1px;
+	border-color: #3399FF;
+	padding: 10px;
+}
+
+#answer_status_rank3_td
+{
+	width:400px;
+	background-color: #FFFFFF;
+	color:#000000;
+	font-size:14px;
+	text-align: left;
+	border: solid 1px;
+	border-color: #3399FF;
+	padding: 10px;
+}
+
+#quizing
+{
+	font-family:Verdana;
+	padding:5px;
+	margin:0px auto 0px auto;
+	width:400px;
+	background-color: #FFFFFF;
+	color:#000000;
+	text-align: left;
+	font-size:14px;
+	border: solid 1px;
+	border-color: #3399FF;
+}
+
+/* 管理画面のリンク */
+#kanri_link
+{
+	text-align: right;
+	padding-right: 5px;
+}
+
+/* パスワード入力画面 */
+#pass_input
+{
+	border:1px solid #D4DCEB;
+	background-color: #FFFFFF;
+	width: 400px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	
+	text-align:center;
+	font-family:Verdana;
+}
+
+#mente_menu
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:375px;
+	padding:0px;
+	clear:both;
+}
+
+#mente_menu_in
+{
+	font-weight:normal;
+	border:1px solid #3399FF;
+	width:120px;
+	height:25px;
+	float:left;
+	margin-left:1px;
+	margin-right:1px;
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	font-weight:bold;
+	font-size: 10pt;
+}
+
+#quiz_input
+{
+	width: 350px;
+	margin:0px auto 0px auto;
+	border-spacing:0;
+	border-top:1px solid #3399FF;
+	border-left:1px solid #3399FF;
+
+}
+
+#quiz_input_center
+{
+	width: 100%;
+	background-color: #3399FF;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin:0px;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size: 10pt;
+	font-weight:bold;
+	border-right:1px solid #3399FF;
+	border-bottom:1px solid #3399FF;
+}
+
+#quiz_input_center_value
+{
+	width: 100%;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin:0px;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size: 10pt;
+	border-right:1px solid #3399FF;
+	border-bottom:1px solid #3399FF;
+}
+
+#quiz_input_left
+{
+	width: 30px;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	margin:0px;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size: 10pt;
+	background-color: #3399FF;
+	color: #FFFFFF;
+	font-weight:bold;
+	border-right:1px solid #3399FF;
+	border-bottom:1px solid #3399FF;
+}
+#quiz_input_left_value
+{
+	width: 30px;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	margin:0px;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size: 10pt;
+	border-right:1px solid #3399FF;
+	border-bottom:1px solid #3399FF;
+}
+
+#quiz_input_right
+{
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	margin:0px;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size: 10pt;
+	background-color: #3399FF;
+	color: #FFFFFF;
+	font-weight:bold;
+	border-right:1px solid #3399FF;
+	border-bottom:1px solid #3399FF;
+}
+#quiz_input_right_value
+{
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	margin:0px;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size: 10pt;
+	border-right:1px solid #3399FF;
+	border-bottom:1px solid #3399FF;
+}
+
+#loglist
+{
+	width: 300px;
+	margin:0px auto 0px auto;
+	border:1px solid #3399FF;
+	text-align: left;
+}
+#logtitle
+{
+	width: 145px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	float: left;
+	font-size: 10pt;
+	text-align: left;
+}
+#logedit
+{
+	width: 120px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	text-align:right;
+	float: right;
+	font-size: 10pt;
+}
+#logtext
+{
+	clear: both;
+	width: 290px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	text-align: left;
+}
+
+#rank1_list
+{
+	width: 510px;
+	margin:0px auto 0px auto;
+	border:1px solid #3399FF;
+	text-align: left;
+}
+#rank1_title
+{
+	width: 495px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	font-size: 13pt;
+	text-align: left;
+	font-weight:bold;
+}
+#rank1_name
+{
+	width: 495px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	text-align:left;
+	font-size: 13pt;
+	font-weight:bold;
+}
+#rank1_text
+{
+	width: 495px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	text-align: left;
+}
+
+#rank_list
+{
+	width: 400px;
+	margin:0px auto 0px auto;
+	border:1px solid #3399FF;
+	text-align: left;
+}
+#rank_title
+{
+	width: 395px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	font-size: 10pt;
+	text-align: left;
+}
+#rank_name
+{
+	width: 395px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	text-align:left;
+	font-size: 10pt;
+	font-weight:bold;
+}
+#rank_text
+{
+	width: 395px;
+	margin:0px auto 0px auto;
+	padding: 5px;
+	text-align: left;
+	font-size: 8pt;
+}
+
+#page_list
+{
+	width: 490px;
+	margin:0px auto 0px auto;
+	font-size: 10pt;
+}
+
+
+#foot
+{
+	clear:both;
+}
+
+/* ページ全体のリンクデザイン */
+a:link
+{
+	color:#0000FF;
+	text-decoration:underline;
+}
+a:visited
+{
+	color:#0000FF;
+	text-decoration:underline;
+}
+
+a:hover
+{
+	color:#ff0080;
+	text-decoration:underline;
+}
